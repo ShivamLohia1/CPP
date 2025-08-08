@@ -12,7 +12,6 @@
 
 //     return 0;
 // }
-
 #include <iostream>
 using namespace std;
 int main(){
@@ -25,4 +24,5 @@ cout<<"Size of element = "<<sizeof(marks[0]);
 int length=sizeof(marks)/sizeof(marks[0]);
 cout<<"Length of array = "<<length<<endl;
 return 0;
+
 }
