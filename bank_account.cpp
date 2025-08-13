@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int main(){
     char n;
     cout << "Do you have addhar and pan card : ";
@@ -12,4 +11,5 @@ int main(){
         cout<<"You are not eligible for bank account." << endl;
     }
     return 0;
+
 }
