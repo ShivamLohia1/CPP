@@ -1,8 +1,6 @@
 // 1) Fibonacci series
-
 // #include <iostream>
 // using namespace std;
-
 // int main() {
 //     int n, a = 0, b = 1, c;
 //     cout << "Enter the number of terms: ";
@@ -20,27 +18,22 @@
 
 
 // 2) prime number check
-
 // #include <iostream>
 // using namespace std;
-
 // int main() {
 //     int n;
 //     cout << "Enter a number: ";
 //     cin >> n;
-
 //     if (n <= 1) {
 //         cout << n << " is not a prime number." << endl;
 //         return 0;
 //     }
-
 //     for (int i = 2; i < n; i++) {
 //         if (n % i == 0) {
 //             cout << n << " is not a prime number." << endl;
 //             return 0;
 //         }
 //     }
-
 //     cout << n << " is a prime number." << endl;
 //     return 0;
 // }
@@ -50,7 +43,6 @@
 
 // #include <iostream>
 // using namespace std;
-
 // bool isPrime(int n) {
 //     if (n <= 1) return false;
 //     for (int i = 2; i*i <= n; i++) {
@@ -58,7 +50,6 @@
 //     }
 //     return true;
 // }
-
 // int main() {
 //     int start, end;
 //     cout << "Enter the range (start and end): ";
@@ -79,7 +70,6 @@
 
 // #include <iostream>
 // using namespace std;
-
 // int sumOfDigits(int num) {
 //     num = abs(num); // handle negative numbers
 //     int sum = 0;
@@ -89,7 +79,6 @@
 //     }
 //     return sum;
 // }
-
 // int main() {
 //     int number;
 //     cout << "Enter a number: ";
@@ -104,11 +93,9 @@
 
 // #include <iostream>
 // using namespace std;
-
 // int countDigits(int num) {
 //     num = abs(num); // Handle negative numbers
 //     if (num == 0) return 1; // Zero has one digit
-
 //     int count = 0;
 //     while (num > 0) {
 //         num /= 10;
@@ -116,12 +103,10 @@
 //     }
 //     return count;
 // }
-
 // int main() {
 //     int number;
 //     cout << "Enter a number: ";
 //     cin >> number;
-
 //     cout << "Number of digits: " << countDigits(number) << endl;
 //     return 0;
 // }
@@ -276,5 +261,6 @@
         
 //     }
 // }
+
 
 
