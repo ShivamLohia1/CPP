@@ -15,14 +15,12 @@
 #include <iostream>
 using namespace std;
 int main(){
-
 int marks[]={10,20,30,40,50};
 cout<<"Total size of arr = "<<sizeof(marks)<<endl;
-
 cout<<"Size of element = "<<sizeof(marks[0]);
-
 int length=sizeof(marks)/sizeof(marks[0]);
 cout<<"Length of array = "<<length<<endl;
 return 0;
 
 }
+
