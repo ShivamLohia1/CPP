@@ -9,7 +9,6 @@
 //     // }
 //     // cout<<marks[0]<<endl;
 //     // cout<<marks[1]<<endl;
-
 //     return 0;
 // }
 #include <iostream>
@@ -21,6 +20,4 @@ cout<<"Size of element = "<<sizeof(marks[0]);
 int length=sizeof(marks)/sizeof(marks[0]);
 cout<<"Length of array = "<<length<<endl;
 return 0;
-
 }
-
