@@ -1,26 +1,18 @@
 #include<iostream>
 using namespace std;
+ class Counter{
+    public:
+    static int count;
+    Counter(){
+        count++;
+    }
+ };
+ int Counter::count = 0;
 
-void print();
+ int main(){
+    Counter c1;
+    cout<<"Counter = "<<Counter::count<<endl;
+    Counter c2;
+        cout<<"Counter = "<<Counter::count<<endl;
 
-
-int main(){ 
-    print();
-
-    return 0;
-}
-
-void print(){
-    cout<<"Hello world\n"<<endl;
-}
-
-
-void country(string name = "India"){
-    cout<<"Welcome to "<<name<<endl;
-}
-
-int main(){
-    country("USA");
-
-    return 0;
-}
+ }0
