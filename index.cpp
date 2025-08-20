@@ -15,4 +15,4 @@ using namespace std;
     Counter c2;
         cout<<"Counter = "<<Counter::count<<endl;
 
- }0
+ }
