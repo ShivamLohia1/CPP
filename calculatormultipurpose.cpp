@@ -6,7 +6,6 @@ using namespace std;
 //1. Arithematic op     2.Unit conversion   3. geometry     4. miscellanious
 
 const float PI = 3.14;
-
 float arithmaticOP(int a,int b,char op){
     switch(op){
         case '+': return a+b;
@@ -161,4 +160,5 @@ int main(){
     cout<<"\nThanks for using this calculator :)\n";
     
     return 0;
+
 }
