@@ -8,7 +8,6 @@ int main() {
     cin >> rows;
     cout << "Enter number of columns: ";
     cin >> cols;
-
     int matrix[10][10], transpose[10][10];
 
     cout << "Enter elements of the matrix:\n";
@@ -28,4 +27,5 @@ int main() {
     }
 
     return 0;
+
 }
