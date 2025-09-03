@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 class Mobile{
     public:
     string brand;
@@ -39,4 +38,5 @@ int main(){
 
     Mobile m1("Vivo",22000,5000); //using parametorised constructor
     m1.info();
+
 }
