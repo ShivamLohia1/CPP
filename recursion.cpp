@@ -10,7 +10,6 @@ void print(int n){
 int main(){
     print(1);
 }
-
 #include<iostream>
 using namespace std;
 
@@ -34,4 +33,5 @@ int main(){
     cout<<endl;
     tail(1);
     return 0;
+
 }
