@@ -10,6 +10,7 @@ void print(int n){
 int main(){
     print(1);
 }
+
 #include<iostream>
 using namespace std;
 
@@ -35,3 +36,4 @@ int main(){
     return 0;
 
 }
+
