@@ -20,6 +20,7 @@ class Car{
         this->model = model;
         this->color = color;
     }
+
     Car(string brand,string model,string color,int price){  //overloading constructor
         this->brand = brand; 
         this->model = model;
@@ -46,4 +47,5 @@ int main(){
     c2.display();
 
     return 0;
+
 }
